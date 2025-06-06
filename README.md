@@ -2,7 +2,7 @@
 ### First clone the repo
 ```bash
 git clone https://github.com/praneethgarre/scholershipfinder.git
-cd scholerseek
+cd ScholarshipFinder
 ```
 
 ### Run backend
