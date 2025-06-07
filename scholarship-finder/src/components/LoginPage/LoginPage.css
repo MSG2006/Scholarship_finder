@@ -1,4 +1,4 @@
- * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,16 +11,16 @@
 }
 
 .login-container {
-  background: rgba(10, 10, 10, 0.9);
+  background: hsla(210, 100%, 50%, 0.7);
   padding: 3rem;
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3), inset 0 0 10px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgb(0, 238, 255), inset 0 0 10px rgb(255, 255, 255);
   width: 450px;
   text-align: center;
   position: relative;
   z-index: 1;
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 255, 0.5);
   transform-style: preserve-3d;
   perspective: 1200px;
   transition: transform 0.5s ease;
@@ -33,14 +33,14 @@
 .logo {
   width: 200px;
   margin: 0 auto 0.5em;
-  filter: drop-shadow(0 0 8px rgba(255, 0, 0, 0.5));
+  filter: drop-shadow(0 0 8px rgba(0, 0, 255, 0.5));
   transition: transform 0.4s ease, filter 0.4s ease;
   border-radius: 6px;
 }
 
 .logo:hover {
   transform: scale(1.1);
-  filter: drop-shadow(0 0 12px rgba(255, 0, 0, 0.7));
+  filter: drop-shadow(0 0 12px rgba(0, 0, 255, 0.7));
 }
 
 #login-form {
@@ -60,24 +60,24 @@
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+  text-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
 }
 
 .form-input {
   width: 100%;
   padding: 10px 14px;
-  border: 2px solid rgba(255, 0, 0, 0.5);
+  border: 2px solid rgba(0, 0, 255, 0.5);
   border-radius: 10px;
   font-size: 1rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.9);
   color: #ffffff;
   transition: all 0.3s ease;
 }
 
 .form-input:focus {
   outline: none;
-  border-color: #ff0000;
-  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  border-color: #0000ff;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -104,7 +104,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  text-shadow: 0 0 3px rgba(255, 0, 0, 0.3);
+  text-shadow: 0 0 3px rgba(0, 0, 255, 0.3);
 }
 
 .checkbox-label::before {
@@ -112,27 +112,27 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  border: 2px solid #ff0000;
+  border: 2px solid #0000ff;
   border-radius: 6px;
   margin-right: 10px;
   transition: all 0.3s ease;
 }
 
 .checkbox:checked + .checkbox-label::before {
-  background-color: #ff0000;
-  border-color: #ff0000;
+  background-color: #0000ff;
+  border-color: #0000ff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 14px;
-  box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+  box-shadow: 0 0 8px rgba(0, 0, 255, 0.6);
 }
 
 .login-button {
   width: 100%;
   padding: 16px;
-  background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
-  color: #000000;
+  background: linear-gradient(135deg, #0000ff 0%, #000099 100%);
+  color: #ffffff;
   font-size: 1.1rem;
   font-weight: 700;
   border: none;
@@ -141,26 +141,26 @@
   transition: all 0.3s ease;
   letter-spacing: 1px;
   text-transform: uppercase;
-  box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+  box-shadow: 0 0 15px rgba(0, 0, 255, 0.4);
 }
 
 .login-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
-  background: linear-gradient(135deg, #ff3333 0%, #e60000 100%);
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.6);
+  background: linear-gradient(135deg, #3333ff 0%, #0000cc 100%);
 }
 
 .login-footer {
-  color: #ffffff;
+  color: #16a4d7;
   text-align: center;
   margin-top: 2rem;
   position: relative;
   z-index: 1;
-  text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+  text-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
 }
 
 .login-footer a {
-  color: #ff0000;
+  color: #0000ff;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
@@ -174,7 +174,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: #ff0000;
+  background: #0000ff;
   transition: width 0.3s ease;
 }
 
