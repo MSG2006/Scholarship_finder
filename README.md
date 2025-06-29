@@ -1,7 +1,7 @@
 ## Run Locally
 ### First clone the repo
 ```bash
-git clone https://github.com/MSG2006/scholershipfinder_
+git clone https://github.com/MSG2006/Scholarship_finder
 cd ScholarshipFinder
 ```
 
