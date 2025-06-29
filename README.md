@@ -5,13 +5,13 @@ git clone https://github.com/praneethgarre/ScolarshipFinder.git
 cd ScholarshipFinder
 ```
 
-### Run backend
+### To run Backend
 ```bash
 cd backend
 npm i 
 npm start
 ```
-### Run frontend
+### To run Frontend
 Then open a new terminal and
 ```bash
 cd scholarship-finder
