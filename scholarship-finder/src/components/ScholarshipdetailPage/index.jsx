@@ -13,7 +13,7 @@ const ScholarshipDetailPage = () => {
   useEffect(() => {
     const fetchScholarshipDetails = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/scholarship/${id}`);
+        const response = await fetch(`https://scholarship-finder-sqxs.onrender.com${id}`);
         const Data = await response.json();
         console.log(Data);
         const ddata={

@@ -19,7 +19,7 @@ const HomePage = () => {
           provider: "NTSE",
           contactEmail: "ntse@gmail.com",
           contactPhone: 123456789,
-          website: "http://localhost:5137"
+          website: "https://scholarship-finder-sqxs.onrender.com"
         }]);
   const [loading, setLoading] = useState(true);
   const [filteredScholarships, setFilteredScholarships] = useState([...scholarships]);
@@ -40,7 +40,7 @@ const HomePage = () => {
   useEffect(() => {
     const fetchScholarships = async () => {
       try {
-        const response = await fetch('http://localhost:3000/scholarships');
+        const response = await fetch('https://scholarship-finder-sqxs.onrender.com');
         const data = await response.json();
         console.log(data);
         setScholarships(data);

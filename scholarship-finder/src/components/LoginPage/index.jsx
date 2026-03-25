@@ -21,7 +21,7 @@ function LoginPage() {
     form.reset();
     try {
       console.log('Submitting login request with data:', data);
-      const response = await fetch('http://localhost:3000/login/', {
+      const response = await fetch('https://scholarship-finder-sqxs.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
